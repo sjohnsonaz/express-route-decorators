@@ -1,0 +1,41 @@
+{
+  "name": "express-utils",
+  "version": "0.0.0",
+  "description": "",
+  "repository": "https://www.github.com/sjohnsonaz/express-utils.git",
+  "license": "MIT",
+  "author": "Sean Johnson <sjohnson@sjohnsonaz.com>",
+  "main": "dist/scripts/main.js",
+  "typings": "dist/scripts/main.d.ts",
+  "scripts": {
+    "start": "node ./dist/scripts/main.js",
+    "install": "",
+    "build": "tsc",
+    "prepublish": "tsc --declaration",
+    "test": "node src/mocha/NodeRunner.js",
+    "min": "webpack --config webpack.config.js --progress",
+    "dev": "webpack --config webpack.dev.config.js --progress",
+    "watch": "webpack --config webpack.dev.config.js --watch --progress",
+    "node": "node ./dist/scripts/main.js",
+    "nodemon": "nodemon ./dist/scripts/main.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.0.0",
+    "@types/chai-http": "^0.0.30",
+    "@types/express": "^4.0.35",
+    "@types/mocha": "^2.2.41",
+    "chai": "^4.0.2",
+    "chai-http": "^3.0.0",
+    "express": "^4.15.3",
+    "jsdom": "^11.0.0",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0",
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.4",
+    "webpack": "^2.6.1"
+  },
+  "peerDependencies": {
+    "express": "^4.15.3"
+  }
+}
