@@ -1,8 +1,8 @@
 {
-  "name": "express-utils",
+  "name": "express-route-decorators",
   "version": "0.0.0",
   "description": "",
-  "repository": "https://www.github.com/sjohnsonaz/express-utils.git",
+  "repository": "https://www.github.com/sjohnsonaz/express-route-decorators.git",
   "license": "MIT",
   "author": "Sean Johnson <sjohnson@sjohnsonaz.com>",
   "main": "dist/scripts/main.js",
