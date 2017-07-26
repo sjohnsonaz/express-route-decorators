@@ -6,13 +6,13 @@ let expect = chai.expect;
 import * as http from 'http';
 import * as express from 'express';
 
-import Router, { middleware, route } from '../scripts/main';
+import Router, { middleware, route, IRequest, IResponse, INext } from '../scripts/main';
 
 describe('route decorator`', () => {
     it('should generate get routes', () => {
         class TestRouter extends Router {
             @route('get', '')
-            get(req, res, next) {
+            get(req: IRequest, res: IResponse, next: INext) {
             }
         }
 

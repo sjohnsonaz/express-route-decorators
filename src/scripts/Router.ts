@@ -1,12 +1,10 @@
 import * as express from 'express';
 
-declare global {
-    export var req: express.Request;
-    export var res: express.Response;
-    export var next: express.NextFunction;
-}
-
 import RouteBuilder from './RouteBuilder';
+
+export type IRequest = express.Request;
+export type IResponse = express.Response;
+export type INext = express.NextFunction;
 
 export default class Router {
     base: string;
