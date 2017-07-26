@@ -1,7 +1,7 @@
 {
   "name": "express-route-decorators",
   "version": "0.0.0",
-  "description": "",
+  "description": "TypeScript decorators for Express routes",
   "repository": "https://www.github.com/sjohnsonaz/express-route-decorators.git",
   "license": "MIT",
   "author": "Sean Johnson <sjohnson@sjohnsonaz.com>",
@@ -37,5 +37,11 @@
   },
   "peerDependencies": {
     "express": "^4.15.3"
-  }
+  },
+  "keywords": [
+    "Express",
+    "route",
+    "decorator",
+    "TypeScript"
+  ]
 }
